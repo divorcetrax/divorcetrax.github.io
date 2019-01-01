@@ -2,7 +2,7 @@
   "name": "divorcetrax.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://divorcetrax.github.io/",
+  "homepage": "https://divorcetrax.github.io",
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
@@ -14,7 +14,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages --branch master -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
